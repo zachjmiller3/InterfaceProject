@@ -1,4 +1,4 @@
-public class DogClass implements Animal
+public class Dog implements Animals
 {
    private String name; 
    private String type; 
