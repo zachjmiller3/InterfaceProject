@@ -10,19 +10,20 @@ public class Bird implements Animals {
 	      this.type = type;
 	   }
 	   
-	   // method required to implement the animal interface.
+	   // Method to implement getName(), getType() and animalSound() methods from Animals interface
+	   //getName()
 	   public String getName()
 	   {
 	      return name;
 	   }
 	   
-	   //animal type 
+	   //getType()
 	      public String getType()
 	   {
 	      return type;
 	   }
 	   
-	   // method required to implement the animal interface.
+	   //animalSound()
 	   public String animalSound()
 	   {
 	      return "Chirp Chirp!";

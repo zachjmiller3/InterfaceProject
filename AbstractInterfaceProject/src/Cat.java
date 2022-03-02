@@ -3,26 +3,27 @@ public class Cat implements Animals
 	   private String name; 
 	   private String type; 
 	   
-	   //Constructor that accept name as parameter.
+	   //Constructor with name and type parameters
 	   public Cat(String name, String type)
 	   {
 	      this.name = name;
 	      this.type = type;
 	   }
 	   
-	   // method required to implement the animal interface.
+	   // Method to implement getName(), getType() and animalSound() methods from Animals interface
+	   //getName()
 	   public String getName()
 	   {
 	      return name;
 	   }
 	   
-	   //animal type 
+	   //getType()
 	      public String getType()
 	   {
 	      return type;
 	   }
 	   
-	   // method required to implement the animal interface.
+	   // animalSound()
 	   public String animalSound()
 	   {
 	      return "Meow!";
